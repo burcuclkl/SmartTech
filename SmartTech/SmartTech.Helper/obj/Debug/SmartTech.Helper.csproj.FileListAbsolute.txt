@@ -1,0 +1,6 @@
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Helper\bin\Debug\SmartTech.Helper.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Helper\bin\Debug\SmartTech.Helper.pdb
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Helper\obj\Debug\SmartTech.Helper.csproj.CoreCompileInputs.cache
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Helper\obj\Debug\SmartTech.Helper.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Helper\obj\Debug\SmartTech.Helper.pdb
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Helper\obj\Debug\SmartTech.Helper.csprojAssemblyReference.cache

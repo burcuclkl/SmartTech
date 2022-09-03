@@ -1,0 +1,120 @@
+﻿@using SmartTech.DataAccess
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_MainLayout.cshtml";
+}
+
+
+<section class="light-gry-bg padding-top-60 padding-bottom-30">
+    <div class="container">
+        <div class="heading">
+            <h2>More Discount Products</h2>
+            <hr />
+        </div>
+        <div class="item-col-4">
+            @foreach (Product product in ViewBag.MoreDiscountProducts)
+            {
+                <div class="product">
+                    <article>
+                        <img class="img-responsive" src="~/ProductImages/@product.Images[0].FileName" alt="" />
+                        <span class="sale-tag">- %@product.Discount</span>
+                        @{ string categoryNames = string.Empty; }
+                        @foreach (Category category in product.Categories)
+                        {
+                            categoryNames += category.Name + " - ";
+                        }
+                        <span class="tag">@categoryNames</span>
+                        <a href="#." class="tittle">@product.Brand.Name - @product.ShortName </a>
+                        <div class="price">
+                            @product.SalesPrice.ToString("c2")
+                            <span>@product.Price.ToString("c2")</span>
+                        </div>
+                        <a href="#." class="cart-btn"><i class="icon-basket-loaded"></i></a>
+                    </article>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<hr />
+<section class="shipping-info">
+    <div class="container">
+        <ul>
+
+            <!-- Free Shipping -->
+            <li>
+                <div class="media-left"> <i class="flaticon-delivery-truck-1"></i> </div>
+                <div class="media-body">
+                    <h5>Free Shipping</h5>
+                    <span>On order over $99</span>
+                </div>
+            </li>
+            <!-- Money Return -->
+            <li>
+                <div class="media-left"> <i class="flaticon-arrows"></i> </div>
+                <div class="media-body">
+                    <h5>Money Return</h5>
+                    <span>30 Days money return</span>
+                </div>
+            </li>
+            <!-- Support 24/7 -->
+            <li>
+                <div class="media-left"> <i class="flaticon-operator"></i> </div>
+                <div class="media-body">
+                    <h5>Support 24/7</h5>
+                    <span>Hotline: (+100) 123 456 7890</span>
+                </div>
+            </li>
+            <!-- Safe Payment -->
+            <li>
+                <div class="media-left"> <i class="flaticon-business"></i> </div>
+                <div class="media-body">
+                    <h5>Safe Payment</h5>
+                    <span>Protect online payment</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="featur-tabs padding-top-60 padding-bottom-60">
+    <div class="container">
+        <div class="heading">
+            <h2>New Products</h2>
+            <hr />
+        </div>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active fade in" id="featur">
+                <div class="item-slide-5 with-nav">
+
+                    @foreach (Product product in ViewBag.NewProducts)
+                    {
+                        <div class="product">
+                            <article>
+                                <img class="img-responsive" src="~/ProductImages/@product.Images[0].FileName" alt="" />
+                                <span class="new-tag">New</span>
+                                @{ string categoryNames = string.Empty; }
+                                @foreach (Category category in product.Categories)
+                                {
+                                    categoryNames += category.Name + " - ";
+                                }
+                                <span class="tag">@categoryNames</span>
+                                <a href="#." class="tittle">@product.Brand.Name - @product.ShortName </a>
+                                <div class="price">
+                                    @product.SalesPrice.ToString("c2")
+                                    <span>@product.Price.ToString("c2")</span>
+                                </div>
+                                <div class="heading">
+                                    <hr />
+                                </div>
+                                <a href="#." class="cart-btn"><i class="icon-basket-loaded"></i></a>
+                            </article>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

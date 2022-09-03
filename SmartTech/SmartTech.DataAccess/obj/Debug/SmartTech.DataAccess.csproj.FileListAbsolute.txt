@@ -1,0 +1,14 @@
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\SmartTech.DataAccess.dll.config
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\SmartTech.DataAccess.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\SmartTech.DataAccess.pdb
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\SmartTech.EnumFields.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\SmartTech.EnumFields.pdb
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\obj\Debug\SmartTech.DataAccess.csprojAssemblyReference.cache
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\obj\Debug\SmartTech.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\obj\Debug\SmartTech.DataAccess.csproj.CopyComplete
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\obj\Debug\SmartTech.DataAccess.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.DataAccess\obj\Debug\SmartTech.DataAccess.pdb

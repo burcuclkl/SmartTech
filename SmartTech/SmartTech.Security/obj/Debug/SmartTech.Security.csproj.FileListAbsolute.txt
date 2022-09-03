@@ -1,0 +1,6 @@
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Security\bin\Debug\SmartTech.Security.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Security\bin\Debug\SmartTech.Security.pdb
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Security\obj\Debug\SmartTech.Security.csproj.CoreCompileInputs.cache
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Security\obj\Debug\SmartTech.Security.dll
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Security\obj\Debug\SmartTech.Security.pdb
+C:\Users\ABRA\source\repos\SmartTech\SmartTech.Security\obj\Debug\SmartTech.Security.csprojAssemblyReference.cache
